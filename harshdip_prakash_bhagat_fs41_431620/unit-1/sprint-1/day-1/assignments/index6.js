@@ -15,13 +15,9 @@ let generateMessage = (user) => {
         return "Access Denied";
     }
 };
-
-// Example usage:
 let user1 = { name: "Alice", role: "admin", active: false };
-console.log(generateMessage(user1)); // Output: "Admin Access Revoked"
-
+console.log(generateMessage(user1)); 
 let user2 = { name: "Bob", role: "user", active: true };
-console.log(generateMessage(user2)); // Output: "User Access Granted!"
-
+console.log(generateMessage(user2)); 
 let user3 = { name: "Charlie", role: "guest", active: true };
-console.log(generateMessage(user3)); // Output: "Access Denied"
+console.log(generateMessage(user3)); 
